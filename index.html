@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Inventory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Money Inventory</h1>
+        <div class="inventory-form">
+            <input type="text" id="item-name" placeholder="Item Name" required>
+            <input type="number" id="item-price" placeholder="Price" required>
+            <button onclick="addItem()">Add Item</button>
+        </div>
+        <ul id="inventory-list"></ul>
+        <h3>Total Value: $<span id="total-value">0</span></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
